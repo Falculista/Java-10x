@@ -12,51 +12,118 @@ Materiais usados:
 
 ---
 
-✅ Tipos primitivos (byte, short, int, long, float, double, char, boolean)
+### 🟢 NÍVEL INICIANTE
 
-✅ Condicionais (if, else, else if, switch — com suporte a Strings no switch)
+✅ Variáveis e Tipagem de Dados – Conceitos fundamentais
 
-✅ Loops (for, while, do...while e enhanced for para coleções/arrays)
+✅ Dados Primitivos e o Erro de 50 Milhões – Erros comuns com tipos primitivos
 
-✅ Operadores (aritméticos, relacionais, lógicos, bitwise, ternário, etc.)
+✅ Principais Shortcuts + Configuração do IntelliJ – Atalhos essenciais
 
-✅ Arrays uni e multidimensionais (int[], int[][], etc.)
+✅ Dados Não Primitivos e Métodos – Referências e métodos básicos
 
-✅ Strings (Classe String imutável e char[] para array de caracteres)
+✅ Condicionais – if, else, else if com exemplos do Naruto
 
-✅ Métodos (substituto de funções — sempre dentro de classes, estáticos ou de instância)
+✅ Scanners e Validação de Dados – Leitura de entrada do usuário
 
-✅ Ponteiros (* e &) — não existe em Java (referências são gerenciadas automaticamente)
+✅ Switch Cases e Tratamento de Dados – Estrutura switch
 
-❌ Classes e Records (substitutos para structs e typedef, com muito mais recursos)
+✅ Ternários – Operador ternário para código mais conciso
 
-❌ Enums (enumerações poderosas, com métodos e campos)
+✅ Laços de Repetição – for, while, do-while
 
-❌ Unions — não existe em Java
+✅ Arrays – Estrutura de dados + referência de memória + desafio
 
-❌ Alocação na heap (new) e Garbage Collector automático (sem free()/malloc())
+✅ Objetos de Memória – Inicialização de Arrays
 
-❌ I/O arquivos (File, FileInputStream, FileOutputStream, RandomAccessFile, NIO, etc.)
+✅ Arrays + Introdução ao Garbage Collector – Gerenciamento de memória
 
-❌ Pacotes e imports (package, import — substitutos de #include e organização em .h/.c)
+✅ Arrays de Referência – Arrays Multidimensionais (Parte 1)
 
-❌ Diretivas de pré-processador (#define, #ifndef, #error, etc.) — não existem; usa-se anotações e constantes
+### 🟡 NÍVEL INTERMEDIÁRIO
 
-❌ Ferramentas de build (Maven, Gradle, Ant — substitutos de Makefiles)
+✅ Classes e Objetos – Fundamentos da POO no Java
 
-❌ JDK (javac compila, java/JVM executa — substituto do GCC)
+✅ Métodos e Parâmetros – Definição e passagem de parâmetros
 
-❌ Debugs e testes (debuggers integrados, JUnit, TestNG, etc.)
+✅ Orientação a Objeto – Comparação com Kotlin e Swift
 
-❌ Macros — não existem em Java
+✅ Herança – Primeiro pilar da orientação a objeto
 
-❌ Varargs (parâmetros variáveis com ... — substituto de <stdarg.h>)
+✅ Interfaces – Contratos e abstração
 
-✅ Operadores bitwise (<<, >>, >>>, ~, ^, &, |)
+✅ Polimorfismo – Segundo pilar da orientação a objeto
 
-❌ Acesso direto a syscalls Linux (<unistd.h>) — usa-se ProcessBuilder ou JNI para casos específicos
+✅ Construtores – Organizando e padronizando objetos
 
-❌ Threads e concorrência (Thread, Runnable, ExecutorService, synchronized, etc. — substituto de <threads.h>)
+✅ Classes Abstratas – Conceito e aplicação
 
-❌ Bare-metal (roda sobre a JVM, não diretamente no hardware — nem com assembly nativo)
+✅ Classes Abstratas x Interfaces – Diferenças e semelhanças
+
+✅ Polimorfismo + Abstração – Combinação dos conceitos
+
+✅ Super Classes x Subclasses – Relações de herança
+
+✅ Herança Múltipla – Como interfaces realmente funcionam
+
+✅ Overload/Sobrecarga de Construtores – Múltiplos construtores
+
+✅ Overload/Sobrecarga de Métodos – Múltiplos métodos com mesmo nome
+
+✅ @Override – Sobrescrita de métodos
+
+✅ Referência de memória – toString() e valor em memória
+
+✅ Final Methods – Métodos que não podem ser sobrescritos
+
+✅ Final Class – Classes que não podem ser estendidas
+
+✅ Encapsulamento – Proteção de dados
+
+✅ Getters e Setters – Acesso controlado a atributos
+
+❌ ENUMS – Enumerações em Java
+
+✅ List – ArrayList e suas funcionalidades
+
+❌ Generics [Parte 1] – Explicação simples
+
+❌ Generics [Parte 2] – Explicação mais complexa
+
+❌ Records – Alternativa moderna para classes
+
+❌ Stack – Estrutura LIFO (último a entrar, primeiro a sair)
+
+❌ Array x List x Stack – Resumo comparativo
+
+❌ Queue – Estrutura FIFO (fila)
+
+❌ LinkedList x ArrayList – Comparação de desempenho e armazenamento
+
+❌ LinkedList – Explicação mais teórica
+
+❌ LinkedList – Introdução à Collection
+
+❌ HashSet – Conjunto sem repetições (usado 99% das vezes)
+
+❌ LinkedListHashSet x TreeSet – Outras implementações de Set
+
+❌ Fim do nível intermediário – Reflexão sobre a jornada
+
+### 🔴 NÍVEL AVANÇADO
+
+❌ Tempo de Compilação x Execução – Java é estático
+
+❌ Escopo Estático + Variáveis Globais – Papel do public static void main
+
+❌ Complexidade de Algoritmos – Introdução à Big O Notation
+
+❌ Introdução à BigO – Passo a passo para código eficiente
+
+❌ BigO – Não é sobre complexidade, é sobre eficiência
+
+❌ Streams [Parte 1] – Melhor feature do Java
+
+❌ Streams [Parte 2] – Continuação e aprofundamento
+
 
