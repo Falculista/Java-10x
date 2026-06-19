@@ -1,16 +1,16 @@
+# $$\Large \text{Estudos de Java}$$
+
 Registro dos meus estudos em Java a partir de conteúdos na internet.
 
 ---
 
-Materiais de estudo:
+Materiais usados:
 
 - https://java10x.dev
 - https://youtu.be/jLropHUgI1A?si=ruYLbiNL17a1imwZ
 - https://youtu.be/cgUfurMJosE?si=sMTf0EDSNb5EAxCu
 
 ---
-
-To-do:
 
 ✅ Tipos primitivos (byte, short, int, long, float, double, char, boolean)
 
